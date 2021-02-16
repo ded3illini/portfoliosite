@@ -2017,10 +2017,20 @@ input, select, textarea {
 			display: inline-block;
 			background-color: #d52349;
 			width: 9em;
-			padding: 1.75em 0 0.75em 0;
+			padding: 0.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
 			margin: 0 0 4.5em 0;
+			cursor: default;
+		}
+
+		.icon.main.pics {
+			position: relative;
+			display: inline-block;
+			width: 15em;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			margin: 0 0 1em 0;
 			cursor: default;
 		}
 
@@ -2285,6 +2295,150 @@ input, select, textarea {
 		#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
 		}
+
+/* Gallery */
+.gallerygrid {
+    width: 350px;
+    min-height: 250px;
+    border-top: 1px solid #ccc;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    zoom: 1;
+    *display: inline;
+    _height: 250px;
+    }
+.galleryparent{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.gallerychild{
+  display: inline-block;    
+}
+.gallerytext{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 2px;
+}
+.galleryimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 348px;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    border: 1px solid #efa93b;
+}
+.collabvideo{
+    width: 450px;
+    height: 200px;
+    margin-left: 25px;
+    
+}
+.collabheader{
+    margin: 0px;
+    font-size: 1.5em;
+}
+.leftline{
+    border-left: 1px solid #ccc;
+}
+.collabparagraph{
+    margin-bottom: 0px;
+    display:grid
+}
+.collabbyline{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.collablogos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+    margin-bottom: 25px
+}
+.collabitem{
+    min-height: 200px;
+}
+.collabbox {
+    padding-top: 0px;
+    padding-bottom: 2.75em;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    border-bottom: solid 1px #ccc;
+    }
+.wallpaper {
+    border: 1px solid #ccc;
+	max-height: 800px;
+	max-width: 900px;
+    padding: 5px;
+}
+.wallpapercaption {
+	margin-bottom: 5px;
+}
+.laceropeslogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-bottom: 2%;
+}
+
+.storeitem{
+    min-height: 430px;
+}
+.storebox {
+    padding-top: 0px;
+    padding-bottom: 2.75em;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    border-bottom: solid 1px #ccc;
+    }
+.navbar {
+    display: block;
+}
+.navul {
+    margin: 0;
+    list-style: none;
+}
+.navl {
+    white-space: nowrap;
+    display: inline-block;
+    font-style: normal;
+    margin: 0 0.35em 0 0.35em;
+}
+.nava {
+    border-radius: 0px;
+    color: #5d5d5d;
+    text-decoration: none;
+    padding: 0.6em 1.2em 0.6em 1.2em;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    outline: 0;
+}
+.navlactive{
+    white-space: nowrap;
+    display: inline-block;
+    font-style: normal;
+    margin: 0 0.35em 0 0.35em;
+}
+.navaactive{
+    background: #efa93b;
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.6em 1.2em 0.6em 1.2em;
+}
+.nava:hover{
+    background: #f3f3f3;
+}
+* {box-sizing: border-box}
+.slides1, .slides2 {display: none}
+img {vertical-align: middle;}
 
 /* Footer */
 
