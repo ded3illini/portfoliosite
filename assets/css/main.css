@@ -289,7 +289,12 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		.row > .col-4.5 {
+		.row > .col-port {
+			width: 25%;
+			text-align: center;
+		}
+
+		.row > .col-45 {
 			width: 10%;
 			text-align: center;
 		}
@@ -1716,6 +1721,12 @@ input, select, textarea {
 			}
 
 		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		.image.ie {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
